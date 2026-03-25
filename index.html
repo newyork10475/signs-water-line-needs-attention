@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Signs Your Water Line May Need Attention | Homeowner Guide</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f8fafc;
+            color: #1e2f3a;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: #0f3b44;
+            margin-bottom: 48px;
+        }
+
+        .hero-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 56px 24px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 48px;
+        }
+
+        .hero-content {
+            flex: 1;
+        }
+
+        .hero-content h1 {
+            font-size: 2.6rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: #d4e4ea;
+            margin-bottom: 24px;
+            max-width: 550px;
+        }
+
+        .hero-meta {
+            display: flex;
+            gap: 24px;
+            color: #c2d6df;
+            font-size: 0.9rem;
+        }
+
+        .hero-meta i {
+            margin-right: 6px;
+        }
+
+        .hero-image {
+            flex: 0.8;
+        }
+
+        .hero-image img {
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+            object-fit: cover;
+            aspect-ratio: 1 / 0.85;
+        }
+
+        /* Blog Card */
+        .blog-card {
+            background: white;
+            border-radius: 24px;
+            padding: 48px 56px;
+            margin-bottom: 48px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+        }
+
+        .blog-card h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 48px 0 16px 0;
+            color: #0f3b44;
+            border-left: 4px solid #2c7da0;
+            padding-left: 20px;
+        }
+
+        .blog-card h2:first-of-type {
+            margin-top: 0;
+        }
+
+        .blog-card h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin: 32px 0 12px;
+            color: #0f3b44;
+        }
+
+        .blog-card p {
+            font-size: 1rem;
+            color: #2c3e44;
+            margin-bottom: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .tip-box {
+            background: #f0f4f8;
+            border-left: 4px solid #2c7da0;
+            padding: 16px 24px;
+            margin: 24px 0;
+            border-radius: 12px;
+        }
+
+        .tip-box i {
+            color: #2c7da0;
+            margin-right: 8px;
+        }
+
+        .sign-item {
+            margin-bottom: 32px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .sign-title {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #0f3b44;
+            margin-bottom: 12px;
+        }
+
+        .sign-title i {
+            color: #2c7da0;
+            width: 32px;
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+
+        .cause-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 28px 0;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .cause-table th {
+            background: #0f3b44;
+            color: white;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .cause-table td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .cause-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .final-thoughts {
+            background: #f8fafc;
+            padding: 32px;
+            border-radius: 20px;
+            margin: 40px 0 20px;
+            text-align: center;
+            border: 1px solid #e2edf2;
+        }
+
+        .final-thoughts i {
+            color: #2c7da0;
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+
+        /* Naked link styling */
+        .naked-link {
+            font-family: monospace;
+            font-size: 0.75rem;
+            background: #f1f5f9;
+            padding: 2px 8px;
+            border-radius: 20px;
+            color: #1a5d74;
+            text-decoration: none;
+            display: inline-block;
+            margin: 2px 4px;
+            word-break: break-all;
+            border: 1px solid #dce5ec;
+        }
+
+        .naked-link:hover {
+            background: #e2e8f0;
+            text-decoration: underline;
+        }
+
+        /* Final links section */
+        .links-section {
+            background: white;
+            border-radius: 24px;
+            padding: 32px 40px;
+            margin-bottom: 56px;
+            border: 1px solid #e9ecef;
+        }
+
+        .links-section h3 {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #0f3b44;
+            margin-bottom: 8px;
+        }
+
+        .links-section h3 i {
+            margin-right: 10px;
+            color: #2c7da0;
+        }
+
+        .links-section p {
+            color: #5a6e7a;
+            margin-bottom: 24px;
+        }
+
+        .links-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .links-grid a {
+            font-family: monospace;
+            font-size: 0.7rem;
+            background: #f8fafc;
+            padding: 6px 12px;
+            border-radius: 24px;
+            color: #1a5d74;
+            text-decoration: none;
+            border: 1px solid #e2e8f0;
+            word-break: break-all;
+            transition: all 0.2s;
+        }
+
+        .links-grid a:hover {
+            background: #e6f0f3;
+            border-color: #2c7da0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 24px 0 48px;
+            color: #7c8f9a;
+            font-size: 0.8rem;
+            border-top: 1px solid #e9ecef;
+        }
+
+        @media (max-width: 768px) {
+            .hero-inner {
+                flex-direction: column;
+                padding: 40px 20px;
+                text-align: center;
+            }
+            .hero-meta {
+                justify-content: center;
+            }
+            .blog-card {
+                padding: 28px 20px;
+            }
+            .blog-card h2 {
+                font-size: 1.5rem;
+            }
+            .links-section {
+                padding: 24px 20px;
+            }
+        }
+
+        .fade-up {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .fade-up.appear {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="hero-inner">
+        <div class="hero-content">
+            <h1>Signs Your Water Line May Need Attention</h1>
+            <p>Most homeowners don't think about their water line until something goes wrong. Recognizing early warning signs can save you from costly emergencies and property damage.</p>
+            <div class="hero-meta">
+                <span><i class="far fa-clock"></i> 7 min read</span>
+                <span><i class="fas fa-chart-line"></i> Expert insights</span>
+                <span><i class="fas fa-hard-hat"></i> Professional guide</span>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="1.png" alt="Plumber inspecting water line" onerror="this.src='https://placehold.co/600x450/0f3b44/white?text=Water+Line+Service'">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <article class="blog-card fade-up">
+        <p>Buried underground, the pipe that brings fresh water into your home works constantly, year after year. Like any essential system, it eventually shows signs of wear. Recognizing these signs early can help you avoid sudden shutoffs, expensive repairs, and damage to your property.</p>
+
+        <h2><i class="fas fa-exclamation-triangle"></i> 7 Critical Signs Your Water Line Is Failing</h2>
+
+        <div class="sign-item">
+            <div class="sign-title"><i class=""></i> 1. Unexplained Increase in Your Water Bill</div>
+            <p>If your household water usage hasn't changed but your bill has risen significantly, water may be escaping between the city main and your home. A small underground leak can waste hundreds of gallons daily without visible surface signs. For detailed guidance on water main issues, you can refer to <a class="naked-link" href="https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/water-main-repair.html" target="_blank" rel="nofollow">https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/water-main-repair.html</a> which covers common repair scenarios.</p>
+            <div class="tip-box"><i class="fas fa-lightbulb"></i> <strong>What to do:</strong> Check your water meter before and after a period when no water is used. If the meter moves, water is flowing somewhere it shouldn't.</div>
+        </div>
+
+        <div class="sign-item">
+            <div class="sign-title"><i class=""></i> 2. Soggy or Sunken Spots in Your Yard</div>
+            <p>A leaking water line can turn your yard into a sponge. Persistently wet, muddy, or unusually lush patches of grass—especially when the rest of the lawn is dry—often indicate a leak beneath. In some cases, a break can wash away soil, creating sunken areas. Understanding <a class="naked-link" href="https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/index.html" target="_blank" rel="nofollow">https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/index.html</a> provides an overview of how professional contractors diagnose such issues.</p>
+            <div class="tip-box"><i class=""></i> <strong>What to look for:</strong> Soft spots, pooling water, sinking pavement, or areas where grass grows faster and greener than surrounding areas.</div>
+        </div>
+
+        <div class="sign-item">
+            <div class="sign-title"><i class=""></i> 3. Low Water Pressure Throughout the Home</div>
+            <p>If every faucet and appliance has weak flow, the issue is likely your main water line. A drop in pressure across the entire house often indicates a significant leak, pipe collapse, or mineral buildup. When pressure problems persist, professional evaluation becomes essential. Resources like <a class="naked-link" href="https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/water-line-replacement.html" target="_blank" rel="nofollow">https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/water-line-replacement.html</a> explain when replacement may be necessary.</p>
+            <div class="tip-box"><i class=""></i> <strong>What to consider:</strong> Pressure issues affecting only one fixture point to a localized problem. Pressure issues everywhere point to the main line.</div>
+        </div>
+
+        <div class="sign-item">
+            <div class="sign-title"><i class=""></i> 4. Discolored or Rusty Water</div>
+            <p>Brown, yellow, or reddish water indicates pipe corrosion, typically in galvanized steel lines. As pipes deteriorate from within, rust particles break loose and travel to faucets. If discoloration persists, inspecting the main line is critical. For those in New York, <a class="naked-link" href="https://sewerandwatercontractor.blogspot.com/2026/01/empire-plumbers-your-trusted-sewer-and.html" target="_blank" rel="nofollow">https://sewerandwatercontractor.blogspot.com/2026/01/empire-plumbers-your-trusted-sewer-and.html</a> offers additional context on local water infrastructure.</p>
+            <div class="tip-box"><i class=""></i> <strong>Important:</strong> Discolored water can stain laundry, affect taste, and signal that your pipe is nearing the end of its useful life.</div>
+        </div>
+
+        <div class="sign-item">
+            <div class="sign-title"><i class=""></i> 5. Water Running When All Fixtures Are Off</div>
+            <p>A quiet house should not have the sound of running water. If you hear water moving through pipes with no fixtures in use, a break or leak exists. Sewer line issues can sometimes accompany water line problems. Information on sewer repairs can be found at <a class="naked-link" href="https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/sewer-line-repair.html" target="_blank" rel="nofollow">https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/sewer-line-repair.html</a> and <a class="naked-link" href="https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/sewer-line-replacement.html" target="_blank" rel="nofollow">https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/sewer-line-replacement.html</a>.</p>
+        </div>
+
+        <div class="sign-item">
+            <div class="sign-title"><i class=""></i> 6. Foundation Cracks or Uneven Floors</div>
+            <p>A leaking water line beneath your home can erode supporting soil, leading to foundation settling. This can cause new cracks in basement walls, uneven floors, and sticking doors. When structural changes accompany other symptoms, addressing the water line becomes urgent. For properties undergoing major work, <a class="naked-link" href="https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/new-sewer-line-installation.html" target="_blank" rel="nofollow">https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/new-sewer-line-installation.html</a> provides insights on new installations.</p>
+        </div>
+
+        <div class="sign-item">
+            <div class="sign-title"><i class=""></i> 7. Odd Taste or Odor in Tap Water</div>
+            <p>Metallic taste, earthy smell, or unusual flavor that doesn't flush out may indicate pipe corrosion or soil infiltration through a crack. While municipal water is treated, contamination can occur between the main and your home. In emergencies, rapid response is crucial. <a class="naked-link" href="https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/emergency-sewer-and-water-main-repair.html" target="_blank" rel="nofollow">https://sewer-and-water-company.s3.us-east-1.amazonaws.com/empire-plumbers/emergency-sewer-and-water-main-repair.html</a> outlines emergency service considerations.</p>
+        </div>
+
+        <h2><i class="fas fa-cogs"></i> What Causes Water Lines to Fail?</h2>
+        <p>Understanding the root causes helps with early detection. Common factors include pipe age, material corrosion, tree root intrusion, ground movement, and electrochemical reactions in soil. For a deeper understanding of water line installation and NYC-specific requirements, <a class="naked-link" href="https://sewerwaterinsights.hashnode.dev/water-line-installation-nyc-guide?showSharer=true" target="_blank" rel="nofollow">https://sewerwaterinsights.hashnode.dev/water-line-installation-nyc-guide?showSharer=true</a> offers a detailed technical guide.</p>
+
+        <table class="cause-table">
+            <thead>
+                <tr><th>Cause</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+                <tr><td><strong>Age</strong></td><td>Many water mains last 50–70 years. Older pipes naturally deteriorate.</td></tr>
+                <tr><td><strong>Material</strong></td><td>Galvanized steel corrodes from within; lead pipes weaken and pose health risks.</td></tr>
+                <tr><td><strong>Tree Roots</strong></td><td>Roots seek moisture and can crack or infiltrate pipes, especially at joints.</td></tr>
+                <tr><td><strong>Ground Movement</strong></td><td>Soil shifting, freezing, thawing, or heavy traffic stresses underground pipes.</td></tr>
+                <tr><td><strong>Corrosion</strong></td><td>Electrochemical reactions in soil or water can eat away at metal pipes over time.</td></tr>
+            </tbody>
+        </table>
+
+        <h2><i class="fas fa-phone-alt"></i> When to Call a Professional</h2>
+        <p>Some signs are subtle—a slight bill increase, a patch of greener grass. Others are impossible to ignore—water bubbling from the ground, no water at all, or suddenly skyrocketing bills. If you notice any of these signs, having a licensed plumbing or utility contractor inspect your water line is recommended. Many offer camera inspection services that pinpoint problems without digging up your yard.</p>
+        <p>Early detection often means simpler, less expensive repairs. A small leak caught early might be fixed with minimal excavation. A full pipe failure caught too late often requires complete replacement and comes with added damage to landscaping, driveways, or even your home's foundation.</p>
+
+        <div class="final-thoughts">
+            <i class="fas fa-water"></i>
+            <h3 style="margin: 12px 0;">Final Thoughts</h3>
+            <p>Your water line is one of the most critical and most forgotten parts of your home. It brings clean water in and works constantly for decades. By paying attention to the signs it gives you, you can avoid emergencies, protect your property, and address problems on your own terms rather than waiting for a failure.</p>
+            <p style="margin-top: 12px; font-weight: 500;">A little awareness today can save a lot of trouble tomorrow.</p>
+        </div>
+    </article>
+
+    <!-- Final links section - all remaining naked links -->
+    <div class="links-section fade-up">
+        <h3><i class="fas fa-link"></i> Additional Resources & Business Listings</h3>
+        <p>Explore these directories, profiles, and service references for further information on water and sewer contracting.</p>
+        <div class="links-grid" id="finalLinksList"></div>
+    </div>
+
+    <footer>
+        <p><i class="far fa-file-alt"></i> Informational guide — always consult a licensed professional for inspections and repairs.</p>
+    </footer>
+</div>
+
+<script>
+    // Complete list of all remaining links (excluding the 9 service links already embedded)
+    const remainingLinks = [
+        "https://www.callupcontact.com/b/businessprofile/Empire_Water_Main_amp_Sewer_Inc/9951680",
+        "https://zumvu.com/empire-water-main-sewer-inc/",
+        "https://www.linkcentre.com/profile/empireplumbers/",
+        "https://www.freelistingusa.com/listings/empire-water-main-sewer-inc",
+        "https://www.provenexpert.com/empire-water-main-sewer-inc/",
+        "https://bizidex.com/en/empire-water-main-sewer-inc-plumbing-866571",
+        "https://www.manta.com/c/m1xz86t/empire-water-main-sewer-inc",
+        "http://www.salespider.com/p-26623164/empire-water-main-sewer-inc",
+        "https://www.brownbook.net/business/54730277/empire-water-main-sewer-inc/",
+        "http://www.place123.net/place/empire-water-main-sewer-inc-bronx-united-states",
+        "http://www.askmap.net/location/7682163/united-states/empire-water-main-sewer-inc",
+        "https://reviews.birdeye.com/empire-water-main-sewer-inc-176955341981707?update=1",
+        "https://www.techdirectory.io/bronx/home-services/empire-water-main-sewer-inc",
+        "https://www.trustlink.org/Reviews/Empire-Water-Main-and-Sewer-Inc-207639045",
+        "https://www.owler.com/company/empireplumbers",
+        "https://vymaps.net/US/empire-water-main-sewer-inc-vn143454/?id_new=9886916dbe774015b6d81267d4201776",
+        "https://www.houzz.com/pro/empire-plumbers",
+        "https://helpsellmyfsbo.com/bronx/empire-water-main-and-sewer-inc",
+        "https://www.bizthistown.com/bronx/service-industry/empire-water-main-sewer-inc",
+        "https://trueen.com/business/listing/empire-water-main-sewer-inc/697031",
+        "https://www.connectantigua.com/bronx/business-services/empire-water-main-sewer-inc",
+        "https://www.uzahighstreet.com/bronx/business-services/empire-water-main-sewer-inc",
+        "https://www.trustindex.io/reviews/empireplumbers.com",
+        "https://www.dibiz.com/empireplumbers732",
+        "https://www.bunity.com/empire-water-main-sewer-inc",
+        "https://www.biztobiz.org/new-york-ny-usa/other/empire-water-main-sewer-inc",
+        "https://adseon.xyz/business/empire-water-main-sewer-inc/",
+        "https://www.auseka.com.au/united-states/the-bronx/business-services/empire-water-main-sewer-inc",
+        "https://www.chiguu.com/bronx/business/empire-water-main-sewer-inc",
+        "https://www.meetyourmarkets.com/bronx/empire-water-main-sewer-inc",
+        "https://www.searchdirect.ca/bronx/home-services/empire-water-main-sewer-inc",
+        "https://www.getlisteduae.com/listings/empire-plumbers-trusted-plumber-in-bronx-ny-sewer-water-line-experts",
+        "https://www.onmap.ae/bronx/cleaning-services/empire-water-main-sewer-inc",
+        "https://www.bizbangboom.com/bronx/empire-water-main-sewer-inc",
+        "https://www.bizlinkbuilder.com/bronx/empire-water-main-sewer-inc",
+        "https://www.find-us-here.com/businesses/Empire-Water-Main-Sewer-Inc-Bronx-New-York-USA/34442725/",
+        "https://ezlocal.com/ny/new-york/contractors---plumbers-and-plumbing/0919483229",
+        "https://citysquares.com/b/empire-water-main-sewer-inc-26936958",
+        "https://us.enrollbusiness.com/BusinessProfile/7708861/Empire%20Water%20Main%20&%20Sewer%20Inc",
+        "https://www.buildzoom.com/contractor/empire-water-main-sewer-inc",
+        "https://www.whatsyourhours.com/united-states/bronx/plumbers/empire-water-main-sewer-inc",
+        "https://www.cleansway.com/bronx/business/empire-water-main-sewer-inc",
+        "https://www.surfyourtown.com/bronx/home-services/empire-water-main-sewer-inc",
+        "https://www.preferredprofessionals.com/bronx/preferred-plumber/empire-water-main-sewer-inc",
+        "https://www.tuugo.us/listing/empire-water-main-sewer-inc/",
+        "https://serden.com/directory/pro/empire-water-main-sewer-inc",
+        "http://communitiezz.com/directory/empire-water-main-sewer-inc-profile-98821.aspx",
+        "https://trendwavedaily.com/directory-listing/empire-water-main-sewer-inc/",
+        "http://www.comparetorepair.com/bronx/other-services-near-me/empire-water-main-sewer-inc",
+        "https://www.earthmom.org/bronx/plumber/empire-water-main-sewer-inc",
+        "https://chatsline.com/businesses/view/823/empire-water-main-sewer-inc",
+        "https://www.bizcoupon.directory/united-states/new-york/business-services/empire-water-main-sewer-inc",
+        "https://www.wireanium.com/united-states/new-york/plumber-contractors/empire-water-main-sewer-inc",
+        "https://www.fixers365.com/businesses/united-states/new-york/new-york-1/plumber/empire-water-main-sewer-inc/",
+        "https://smallbusinessusa.com/listing/24hours-emergency-plumber-nyc-sewer-water-main-specialists.html",
+        "https://www.successcenter.com/new-york/services/empire-water-main-sewer-inc",
+        "https://www.justlink.org/details.php?id=417130",
+        "https://www.allbiz.com/business/empire-water-main-sewer-inc_4d-718-715-4862",
+        "https://blinx.biz/empire-water-main-sewer-inc",
+        "https://www.addonbiz.com/listing/new-york-ny-united-states-empire-water-main-sewer-inc-3/",
+        "https://pakhie.com/empireplumbers",
+        "https://vimeo.com/user255068190",
+        "https://www.trepup.com/@empireplumbers",
+        "https://www.twine.net/user1520884",
+        "https://www.writerscafe.org/empireplumbers",
+        "https://triberr.com//empireplumbers",
+        "https://www.inkshares.com/empire-water-main-sewer-inc",
+        "https://archive.org/details/@empire_water_main_sewer_inc/loans#on-loan",
+        "https://www.4shared.com/u/Iys4JcNr/empireplumbers732.html",
+        "https://www.behance.net/empiresewer",
+        "https://www.dailymotion.com/user/empireplumbers",
+        "https://www.kickstarter.com/profile/437685682/about",
+        "https://replit.com/@empireplumbers7",
+        "https://www.goodreads.com/user/show/199098483-empire-water-ewer-inc",
+        "https://www.twitch.tv/empireplumbers/about",
+        "https://www.bloglovin.com/@empirewatermainsewerinc",
+        "https://500px.com/p/empireplumbers732",
+        "https://elovebook.com/empireplumbers",
+        "https://www.frenchwomenorg.com/empireplumbers",
+        "https://empireplumbers1.livejournal.com/profile/",
+        "https://www.answers.com/u/empireplumbers732",
+        "https://www.carolinashungarianchurch.org/profile/empireplumbers73245755/profile",
+        "https://github.com/empireplumbers",
+        "https://www.coursera.org/user/4f206e3e8fec67775051dc84e420b475",
+        "https://www.reddit.com/user/empireplumbers/",
+        "https://freekashmir.mn.co/members/38472461/members/38144759",
+        "https://freekashmir.mn.co/members/38144685",
+        "https://body-imagine.mn.co/members/38125614",
+        "http://bbhsoba.com.ng/empireplumbers",
+        "https://app.demiplane.com/profile/empireplumbers",
+        "https://gifyu.com/empireplumbers",
+        "https://www.producthunt.com/@empire_plumbers",
+        "https://www.zazzle.com/mbr/238838720327127505",
+        "https://www.rctech.net/forum/members/empireplumbers-535182.html",
+        "https://issuu.com/empireplumbers",
+        "https://medium.com/@empireplumbers732",
+        "https://profile.hatena.ne.jp/empireplumbers/profile",
+        "https://www.blogger.com/profile/01412371381737277992",
+        "https://bondhusova.com/empireplumbers",
+        "https://social.instinxtreme.com/empireplumbers",
+        "https://mybuddis.com/empireplumbers",
+        "https://www.christianaalyse.com/profile/empireplumbers73255732/profile",
+        "https://www.mapleprimes.com/users/empireplumbers",
+        "https://meadd.com/empireplumbers",
+        "http://www.activewin.com/user.asp?Action=Read&UserIndex=4824365",
+        "https://blogger-mania.mn.co/members/38207649",
+        "https://www.divephotoguide.com/user/empireplumbers/",
+        "https://pinshape.com/users/8906690-empireplumbers?tab=designs",
+        "https://wakelet.com/@EmpireWaterMainandSewerInc27339",
+        "https://www.multiversal.co.in/profile/empireplumbers73298849/profile",
+        "https://www.gofreewheel.com/profile/empireplumbers73219326/profile",
+        "https://www.ted.com/profiles/51098928",
+        "https://soundcloud.com/empireplumbers732",
+        "https://www.questmetaldetectors.com/members-area/empireplumbers73231332/profile",
+        "https://rnopportunities.com/author/empireplumbers/",
+        "https://www.theantiracisteducator.com/profile/empireplumbers73261620/profile",
+        "https://www.oldcrowranch.com/profile/empireplumbers73284590/profile",
+        "https://www.discogs.com/user/empireplumbers",
+        "https://rnmanagers.com/author/empireplumbers/",
+        "https://onlinevetjobs.com/author/empireplumbers/",
+        "https://www.khadas.com/profile/empireplumbers73232599/profile",
+        "https://www.culturecafelausanne.com/profile/empireplumbers73299422/profile",
+        "https://my.sprintally.com/empireplumbers",
+        "https://ronpaulforums.com/members/empire-water-main-sewer.350546/",
+        "https://doodleordie.com/profile/empireplumbers",
+        "https://www.huntingnet.com/forum/members/empireplumbers.html",
+        "https://cosmeticsworld.org/empireplumbers",
+        "https://friends-social.com/empireplumbers",
+        "https://vintfint.com/Empireplumbers732",
+        "https://www.bizbuildboom.com/bronx/other/empire-water-main-sewer-inc",
+        "https://hasster.com/empireplumbers",
+        "https://www.albahiabeauty.com/profile/empireplumbers73248228/profile",
+        "https://www.between.co.uk/profile/empireplumbers73297386/profile",
+        "https://www.sebasico.com/profile/empireplumbers73227496/profile",
+        "https://www.316.group/profile/empireplumbers73242546/profile",
+        "https://www.nymetropolitanaau.com/profile/empireplumbers7329841/profile",
+        "https://www.babkis.com/profile/empireplumbers73236445/profile",
+        "https://www.braidbabes.com/profile/empireplumbers73290774/profile",
+        "https://www.achsmusic.com/profile/empireplumbers73216466/profile",
+        "https://www.diwa.ph/profile/empireplumbers73269174/profile",
+        "https://www.magicscalemodeling.com/profile/empireplumbers73275563/profile",
+        "https://www.tripadvisor.com/Profile/empirep2026",
+        "https://www.pinterest.com/empireplumbers/",
+        "https://www.scribd.com/user/948885080/Empire-Water-Main-Sewer-Inc",
+        "https://x.com/EmpireSewe22817"
+    ];
+
+    const container = document.getElementById("finalLinksList");
+    if (container) {
+        remainingLinks.forEach(link => {
+            const anchor = document.createElement("a");
+            anchor.href = link;
+            anchor.target = "_blank";
+            anchor.rel = "noopener noreferrer nofollow";
+            anchor.textContent = link;
+            container.appendChild(anchor);
+        });
+    }
+
+    // Fade-up animation
+    const fadeElements = document.querySelectorAll('.fade-up');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('appear');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+    fadeElements.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
